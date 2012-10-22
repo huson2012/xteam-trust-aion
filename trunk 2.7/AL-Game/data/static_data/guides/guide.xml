@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<guides xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="guide.xsd">
+	<!-- Asmodians -->
+	<guide title="adventurers_guide55_ely" level="60" race="ELYOS" rewardCount="1">
+		<message>
+		<![CDATA[
+		<br><br>Добро пожаловать на GM-PVP сервер!<br>
+		<br><br>Вам доступны следующие команды:<br>
+		<br>
+		<br>
+		.dye [Dye color | Hex color | No]<br>
+		.cube [ваш ник] (Дает + 9 ячеек куба)<br>
+		.gms - Дает максемальный LvL и скилы<br>
+		.gm [Отображает гм-ов в онлайне]<br>
+		.add [ItemID] [Кол-во]<br>
+		.playerinfo [Имя игрока] [ Item | Skill ]<br>
+		.equip enchant 15 (Затачивает все надетые предметы на +15)<br>
+		.dropinfo [Target] (Отображает дроп взятого в таргет моба)<br>
+		.pvp home (Телепортирует в пвп зону)
+		<br>
+		<br>
+		<a http://aion.optizone.ru/community/">Форум Aion Light</a>
+		]]>
+		</message>
+		<select>Закрыть!</select>
+		<survey itemId="161000001" count="10"/>
+	</guide>
+	<guide title="adventurers_guide55_asmo" level="60" race="ASMODIANS" rewardCount="1">
+		<message>
+		<![CDATA[
+		<br><br>Добро пожаловать на GM-PVP сервер!<br>
+		<br><br>Вам доступны следующие команды:<br>
+		<br>
+		<br>
+		.dye [Dye color | Hex color | No]<br>
+		.cube [ваш ник] (Дает + 9 ячеек куба)<br>
+		.gms - Дает максемальный LvL и скилы<br>
+		.gm [Отображает гм-ов в онлайне]<br>
+		.add [ItemID] [Кол-во]<br>
+		.playerinfo [Имя игрока] [ Item | Skill ]<br>
+		.equip enchant 15 (Затачивает все надетые предметы на +15)<br>
+		.dropinfo [Target] (Отображает дроп взятого в таргет моба)<br>
+		.pvp home (Телепортирует в пвп зону)
+		<br>
+		<br>
+		<a http://aion.optizone.ru/community/">Форум Aion Light</a>
+		]]>
+		</message>
+		<select>Закрыть!</select>
+		<survey itemId="161000001" count="10"/>
+	</guide>
+</guides>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<npc_drops>
+	<npc_drop npc_id="260088">
+        <drop_group name="ELYOS" use_category="false" race="ELYOS">
+            <drop chance="100" max_amount="1" min_amount="10" item_id="186000096"/>
+            <drop chance="100" max_amount="1" min_amount="10" item_id="186000030"/>
+			<drop chance="100" max_amount="500" min_amount="1000" item_id="186000130"/>
+			<drop chance="100" max_amount="30" min_amount="50" item_id="186000137"/>
+        </drop_group>
+        <drop_group name="ASMODIANS" use_category="false" race="ASMODIANS">
+            <drop chance="100" max_amount="1" min_amount="10" item_id="186000096"/>
+            <drop chance="100" max_amount="1" min_amount="10" item_id="186000030"/>
+			<drop chance="100" max_amount="500" min_amount="1000" item_id="186000131"/>
+			<drop chance="100" max_amount="30" min_amount="50" item_id="186000137"/>
+        </drop_group>
+    </npc_drop>
+	<npc_drop npc_id="217206">
+        <drop_group name="ELYOS" use_category="false" race="ELYOS">
+            <drop chance="100" max_amount="1" min_amount="1" item_id="100000617"/>
+            <drop chance="100" max_amount="1" min_amount="1" item_id="100100481"/>
+            <drop chance="100" max_amount="1" min_amount="1" item_id="100200588"/>
+            <drop chance="100" max_amount="1" min_amount="1" item_id="100500478"/>
+			<drop chance="100" max_amount="1" min_amount="1" item_id="100600511"/>
+            <drop chance="100" max_amount="1" min_amount="1" item_id="100900474"/>
+            <drop chance="100" max_amount="1" min_amount="1" item_id="101300463"/>
+            <drop chance="100" max_amount="1" min_amount="1" item_id="101500480"/>
+			<drop chance="100" max_amount="1" min_amount="1" item_id="101700493"/>
+			<drop chance="100" max_amount="1" min_amount="1" item_id="115000764"/>
+        </drop_group>
+        <drop_group name="ASMODIANS" use_category="false" race="ASMODIANS">
+            <drop chance="100" max_amount="1" min_amount="1" item_id="100000618"/>
+            <drop chance="100" max_amount="1" min_amount="1" item_id="100100482"/>
+            <drop chance="100" max_amount="1" min_amount="1" item_id="100200589"/>
+            <drop chance="100" max_amount="1" min_amount="1" item_id="100500479"/>
+			<drop chance="100" max_amount="1" min_amount="1" item_id="100600512"/>
+            <drop chance="100" max_amount="1" min_amount="1" item_id="100900475"/>
+            <drop chance="100" max_amount="1" min_amount="1" item_id="101300464"/>
+            <drop chance="100" max_amount="1" min_amount="1" item_id="101500481"/>
+			<drop chance="100" max_amount="1" min_amount="1" item_id="101700494"/>
+			<drop chance="100" max_amount="1" min_amount="1" item_id="115000765"/>
+        </drop_group>
+    </npc_drop>
+</npc_drops>	

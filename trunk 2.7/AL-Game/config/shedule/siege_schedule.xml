@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<siege_schedule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="siege_schedule.xsd">
+	<fortress id="2011">
+		<siegeTime>0 0 20 ? * *</siegeTime>
+		<siegeTime>0 0 14 ? * THU,SAT,SUN</siegeTime>
+	</fortress>
+	<fortress id="2021">
+		<siegeTime>0 0 20 ? * *</siegeTime>
+		<siegeTime>0 0 14 ? * TUE,SAT,SUN</siegeTime>
+	</fortress>
+	<fortress id="3011">
+		<siegeTime>0 0 20 ? * *</siegeTime>
+		<siegeTime>0 0 14 ? * THU,SAT,SUN</siegeTime>
+	</fortress>
+	<fortress id="3021">
+		<siegeTime>0 0 20 ? * *</siegeTime>
+		<siegeTime>0 0 14 ? * TUE,SAT,SUN</siegeTime>
+	</fortress>
+	<fortress id="1131">
+		<siegeTime>0 0 22 ? * MON,WED,FRI</siegeTime>
+	</fortress>
+	<fortress id="1132">
+		<siegeTime>0 0 22 ? * MON,WED,FRI</siegeTime>
+	</fortress>
+	<fortress id="1141">
+		<siegeTime>0 0 22 ? * MON,WED,FRI</siegeTime>
+	</fortress>
+	<fortress id="1011">
+		<siegeTime>0 0 22 ? * TUE,SAT</siegeTime>
+	</fortress>
+	<fortress id="1211">
+		<siegeTime>0 0 22 ? * TUE,THU,SAT,SUN</siegeTime>
+	</fortress>
+	<fortress id="1221">
+		<siegeTime>0 0 22 ? * TUE,THU,SAT,SUN</siegeTime>
+	</fortress>
+	<fortress id="1231">
+		<siegeTime>0 0 22 ? * TUE,THU,SAT,SUN</siegeTime>
+	</fortress>
+	<fortress id="1241">
+		<siegeTime>0 0 22 ? * TUE,THU,SAT,SUN</siegeTime>
+	</fortress>
+	<fortress id="1251">
+		<siegeTime>0 0 22 ? * TUE,THU,SAT,SUN</siegeTime>
+	</fortress>
+</siege_schedule>

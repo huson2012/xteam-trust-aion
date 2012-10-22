@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="gameserver" default="dist" basedir=".">
+	
+
+	<description>
+
+		
+		@Ant build by Pu4ok
+		
+		This file is part of AL.
+
+		This is
+		free software: you can redistribute it and / or modify
+		it under the
+		terms of the GNU Lesser Public License as published by
+		the Free
+		Software Foundation, either version 3 of the License, or
+		(at your
+		option) any later version.
+
+		This software is distributed in the hope that it will be useful,
+		but
+		WITHOUT ANY WARRANTY; without even the implied warranty of
+		MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+		GNU Lesser
+		Public License for more details.
+
+		You should have received a copy of the GNU Lesser Public License
+		along
+		with this software. If not, see http://www.gnu.org/licenses/.
+    
+		</description>
+
+			<property name="jre" location="${java.home}/libs" />
+			<property name="src" location="src" />
+			<property name="config" location="config" />
+			<property name="libs" location="libs" />
+			<property name="build" location="build" />
+			<property name="build.classes" location="${build}/Classes" />
+
+			<path id="classpath">
+				<fileset dir="${libs}">
+					<include name="*.jar" />
+				</fileset>
+			</path>
+
+			<target name="clean" description="Removes build directory.">
+				<delete dir="${build}" />
+			</target>
+			<target name="init" depends="clean" description="Create the output directories.">
+				<mkdir dir="${build}" />
+				<mkdir dir="${build.classes}" />
+			</target>
+			<target name="compile" depends="init" description="Compile the source.">
+				<javac destdir="${build.classes}" optimize="on" debug="on"
+					nowarn="off" source="1.6" target="1.6" includeantruntime="false">
+					<src path="${src}" />
+					<classpath refid="classpath" />
+				</javac>
+			</target>
+			<target name="jar" depends="compile" description="Create the jar file">
+				<tstamp>
+					<format property="date" pattern="yyyy-MM-dd-HH:mm" />
+				</tstamp>
+
+				<jar destfile="${build}/AL-Game.jar">
+					<fileset dir="${build.classes}" />
+					<manifest>
+						<attribute name="Main-Class" value="com.light.gameserver.GameServer" />
+						<attribute name="Revision" value="${revision}" />
+						<attribute name="Date" value="${date}" />
+					</manifest>
+				</jar>
+
+			</target>
+
+			<target name="dist" depends="jar">
+			</target>
+		</project>
